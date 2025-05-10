@@ -1,8 +1,10 @@
 import { useState } from "react";
 import "./App.css";
 
+import Header from "./components/Header/Header";
+
 function App() {
-  return <h1>SPUNE NU DROGURILOR</h1>;
+  return <Header />;
 }
 
 export default App;

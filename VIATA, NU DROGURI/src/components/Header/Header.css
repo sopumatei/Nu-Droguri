@@ -1,0 +1,43 @@
+#header {
+  background-color: #60b5ff;
+  color: #ffecdb;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+  padding: 0 10vw;
+
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+  min-height: 10vh;
+}
+
+#header h1 {
+  letter-spacing: 1.2px;
+}
+
+#header ul {
+  font-size: 1.3rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 2rem;
+
+  list-style: none;
+}
+
+#header li {
+  transition: all 0.2s ease-in-out;
+}
+
+#header li:hover {
+  font-size: 1.5;
+  cursor: pointer;
+  color: #ff9149;
+}
