@@ -8,7 +8,7 @@
   flex-flow: row nowrap;
 
   width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
 
   padding: 0 10vw;
