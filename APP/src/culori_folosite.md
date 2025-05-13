@@ -1,4 +1,5 @@
-1. Albastru Intens: #60B5FF
-2. Albastru Deschis: #AFDDFF
-3. Bej: #FFECDB
-4. Portocaliu: #FF9149
+1. Negru: #000000
+2. Alb: #ffffff
+3. Gri: #4e4e4e
+4. Verde Inchis: #16a34a
+5. PVerde Deschis: #dcfce7
