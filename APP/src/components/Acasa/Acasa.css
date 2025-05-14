@@ -3,7 +3,8 @@
   /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 
   width: min(80%, 1250px);
-  min-height: min(60vh, 600px);
+  height: 550px;
+  /* min-height: max(60vh, 600px); */
   background-image: linear-gradient(to right, #49da85, #3b84f4);
   border-radius: 18px;
   padding: 2rem;
@@ -71,6 +72,8 @@
   border-radius: 6px;
 
   align-items: center;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
   transition: all 0.2s ease-in-out;
 }

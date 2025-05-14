@@ -16,6 +16,12 @@ export default function Header() {
           <li>Mărturii</li>
           <li>Ajutor</li>
         </ul>
+
+        <div id="nav-btn">
+          <div className="btnLine"></div>
+          <div className="btnLine"></div>
+          <div className="btnLine"></div>
+        </div>
       </div>
     </div>
   );
