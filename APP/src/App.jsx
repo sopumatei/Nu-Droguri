@@ -3,6 +3,7 @@ import "./App.css";
 
 import Header from "./components/Header/Header";
 import Acasa from "./components/Acasa/Acasa";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div id="content">
         <Acasa />
       </div>
+      <Footer />
     </div>
   );
 }
