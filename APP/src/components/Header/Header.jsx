@@ -18,10 +18,10 @@ export default function Header({ onNavigate, current }) {
             Acasă
           </li>
           <li
-            className={current === "despre" ? "active" : ""}
-            onClick={() => onNavigate("despre")}
+            className={current === "beneficii" ? "active" : ""}
+            onClick={() => onNavigate("beneficii")}
           >
-            Despre
+            Beneficii
           </li>
           <li
             className={current === "marturii" ? "active" : ""}

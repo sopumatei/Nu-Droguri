@@ -4,3 +4,4 @@
 4. Verde Inchis: #16a34a
 5. Verde Deschis: #dcfce7
 6. Albastru: #3b84f4
+7. Gri Descdhis: #f9fafb
