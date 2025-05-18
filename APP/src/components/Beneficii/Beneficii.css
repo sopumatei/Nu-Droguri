@@ -15,7 +15,7 @@
 
 #beneficii-txt h1 {
   text-align: center;
-  color: #000000;
+  color: #000;
 }
 
 #beneficii-txt p {
@@ -25,7 +25,7 @@
 
 #beneficii-cards {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .card-beneficii h1 {
-  color: #000000;
+  color: #000;
   text-align: center;
 
   font-size: 1.2rem;
