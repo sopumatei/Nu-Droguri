@@ -18,7 +18,7 @@ export default function Acasa() {
 
         <div id="acasa-btns">
           <button>📚 Citește povești reale</button>
-          <button>🧠 Află cum poți spune NU</button>
+          <button>🧠 Beneficiile unei vieți libere</button>
           <button>💬 Vorbește cu noi</button>
         </div>
       </div>
