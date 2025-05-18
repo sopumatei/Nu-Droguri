@@ -10,6 +10,7 @@ import Ajutor from "./components/Ajutor/Ajutor";
 
 function App() {
   const [section, setSection] = useState("acasa");
+  window.scrollTo(0, 0);
 
   const renderSection = () => {
     switch (section) {
