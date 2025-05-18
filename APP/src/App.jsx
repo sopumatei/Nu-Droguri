@@ -1,4 +1,4 @@
-import { use, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 
 import Header from "./components/Header/Header";
@@ -7,10 +7,10 @@ import Footer from "./components/Footer/Footer";
 import Beneficii from "./components/Beneficii/Beneficii";
 import Marturii from "./components/Marturii/Marturii";
 import Ajutor from "./components/Ajutor/Ajutor";
+import FadeTransition from "./FadeTransition";
 
 function App() {
   const [section, setSection] = useState("acasa");
-  window.scrollTo(0, 0);
 
   const renderSection = () => {
     switch (section) {
@@ -29,7 +29,9 @@ function App() {
   return (
     <div id="main">
       <Header onNavigate={setSection} current={section} />
-      <div id="content">{renderSection()}</div>
+      <div id="content">
+        <FadeTransition triggerKey={section}>{renderSection()}</FadeTransition>
+      </div>
       <Footer />
     </div>
   );

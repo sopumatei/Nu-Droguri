@@ -15,3 +15,8 @@
 
   padding: 5vh 0;
 }
+
+#transition-container {
+  display: grid;
+  place-items: center;
+}
