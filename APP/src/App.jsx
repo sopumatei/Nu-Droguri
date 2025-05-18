@@ -5,15 +5,8 @@ import Header from "./components/Header/Header";
 import Acasa from "./components/Acasa/Acasa";
 import Footer from "./components/Footer/Footer";
 import Beneficii from "./components/Beneficii/Beneficii";
+import Marturii from "./components/Marturii/Marturii";
 
-function Marturii() {
-  return (
-    <div style={{ padding: "2rem" }}>
-      <h2>Mărturii</h2>
-      <p>Povești reale...</p>
-    </div>
-  );
-}
 function Ajutor() {
   return (
     <div style={{ padding: "2rem" }}>

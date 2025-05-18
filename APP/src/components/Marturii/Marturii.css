@@ -1,0 +1,89 @@
+#marturii {
+  width: min(80%, 1250px);
+  height: auto;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#marturii-txt {
+  width: 100%;
+}
+
+#marturii-txt h1 {
+  text-align: center;
+  color: #000;
+}
+
+#marturii-txt p {
+  text-align: center;
+  color: #4e4e4e;
+}
+
+#marturii-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.card-marturii {
+  background-color: #f9fafb;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 18px;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.card-marturii:nth-of-type(1) {
+  background-color: #eff6ff;
+}
+
+.card-marturii:nth-of-type(2) {
+  background-color: #f0fdf4;
+}
+
+.card-marturii:nth-of-type(3) {
+  background-color: #faf5ff;
+}
+
+.card-marturii h1 {
+  color: #000;
+  text-align: center;
+
+  margin-bottom: -1rem;
+
+  font-size: 1.2rem;
+}
+
+.card-marturii p {
+  text-align: center;
+  color: #4e4e4e;
+}
+
+.card-marturii img {
+  border-radius: 128px;
+  width: 256px;
+  height: 256px;
+}
+
+.card-marturii:nth-of-type(1) img {
+  border: 3px solid #3b82f6;
+}
+
+.card-marturii:nth-of-type(2) img {
+  border: 3px solid #27c661;
+}
+
+.card-marturii:nth-of-type(3) img {
+  border: 3px solid #a855f7;
+}
