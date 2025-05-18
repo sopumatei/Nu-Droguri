@@ -1,5 +1,3 @@
-import "./Beneficii.css";
-
 export default function CardBeneficii({ image, title, text }) {
   const Icon = image;
 
