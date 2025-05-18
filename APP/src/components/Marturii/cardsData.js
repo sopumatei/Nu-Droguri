@@ -6,7 +6,7 @@ const cardsData = [
   {
     image: ROBERT,
     title: "Robert Downey",
-    text: "„Ani la rând m-am pierdut în droguri. Cocaină, heroină, alcool - toate păreau să-mi ofere liniștea pe care nu o găseam în mine. Am fost arestat, internat, eliberat... și iar o luam de la capăt. Însă într-o zi am înțeles că viața pe care o trăiam nu era una reală. Am decis să lupt. Cu ajutor, cu disciplină și voință, am ieșit la lumină. Azi, trăiesc curat, recunoscător și cu inima plină. Dacă eu am reușit, oricine poate. Doar să nu renunți.”",
+    text: "„Ani la rând m-am pierdut în droguri. Cocaină, heroină, alcool - toate păreau să-mi ofere liniștea pe care nu o găseam în mine. Am fost arestat, internat, eliberat... și iar o luam de la capăt. Însă într-o zi am înțeles că viața pe care o trăiam nu era una reală. Am decis să lupt. Cu ajutor, cu disciplină și voință, am ieșit la lumină. Azi, trăiesc curat, recunoscător și cu inima plină. Dacă eu am reușit, oricine poate.”",
   },
   {
     image: EMINEM,
