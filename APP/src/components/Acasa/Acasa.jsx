@@ -1,7 +1,7 @@
 import "./Acasa.css";
 import acasaImg from "../../assets/drugs_1.jpg";
 
-export default function Acasa() {
+export default function Acasa({ onNavigate, current }) {
   return (
     <div id="acasa">
       <div id="acasa-txt">
@@ -17,9 +17,13 @@ export default function Acasa() {
         </div>
 
         <div id="acasa-btns">
-          <button>📚 Citește povești reale</button>
-          <button>🧠 Beneficiile unei vieți libere</button>
-          <button>💬 Vorbește cu noi</button>
+          <button onClick={() => onNavigate("marturii")}>
+            📚 Citește povești reale
+          </button>
+          <button onClick={() => onNavigate("beneficii")}>
+            🧠 Beneficiile unei vieți libere
+          </button>
+          <button onClick={() => onNavigate("ajutor")}>💬 Cere ajutor</button>
         </div>
       </div>
 

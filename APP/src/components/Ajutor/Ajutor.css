@@ -1,0 +1,84 @@
+#ajutor {
+  background-color: #2563eb;
+  width: min(80%, 850px);
+  height: auto;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  border-radius: 18px;
+
+  padding: 1rem 2rem;
+}
+
+#ajutor-txt {
+  text-align: center;
+  width: 80%;
+}
+
+#ajutor form {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.form-input {
+  width: min(80%, 450px);
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-input label {
+  font-size: 1.3rem;
+}
+
+.form-input textarea {
+  height: 20vh;
+  resize: none;
+}
+
+.form-txt {
+  font-family: inherit;
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+
+  background-color: #f9fafb;
+  color: #000;
+  border: none;
+
+  border-radius: 12px;
+
+  transition: all 0.2s ease-in-out;
+
+  margin-top: 0.5rem;
+}
+
+.form-txt:focus {
+  transform: scale(1.02);
+}
+
+#ajutor form button {
+  font-family: inherit;
+  font-size: 1.2rem;
+
+  padding: 0.5rem 2rem;
+  background-color: #fff;
+  color: #2563eb;
+  border: none;
+  border-radius: 12px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+#ajutor form button:hover {
+  cursor: pointer;
+  transform: scale(0.96);
+}

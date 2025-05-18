@@ -6,15 +6,7 @@ import Acasa from "./components/Acasa/Acasa";
 import Footer from "./components/Footer/Footer";
 import Beneficii from "./components/Beneficii/Beneficii";
 import Marturii from "./components/Marturii/Marturii";
-
-function Ajutor() {
-  return (
-    <div style={{ padding: "2rem" }}>
-      <h2>Ajutor</h2>
-      <p>Contacte și resurse...</p>
-    </div>
-  );
-}
+import Ajutor from "./components/Ajutor/Ajutor";
 
 function App() {
   const [section, setSection] = useState("acasa");
@@ -29,7 +21,7 @@ function App() {
         return <Ajutor />;
       case "acasa":
       default:
-        return <Acasa />;
+        return <Acasa onNavigate={setSection} current={section} />;
     }
   };
 
