@@ -6,7 +6,10 @@ Site-ul realizat pentru concursul CIP 2025. Aceasta pagina web a fost realizata 
 
 Pentru a porni site-ul local, aveți nevoie de Node.js. Este foarte simplu. Instalați Node.js și apoi deschideți acest folder într-un code editor, cum ar fi Visual Studio Code. După ce ați făcut acest lucru, executați următoarele comenzi în consolă:
 
-cd Nu-Droguri
-cd APP
-npm install
-npm run dev
+`cd Nu-Droguri`
+
+`cd APP`
+
+`npm install`
+
+`npm run dev`
