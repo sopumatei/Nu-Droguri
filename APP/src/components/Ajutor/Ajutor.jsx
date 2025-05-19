@@ -11,12 +11,12 @@ export default function Ajutor() {
         </p>
       </div>
       <form action="https://formspree.io/f/mvgaypkl" method="POST">
-        <div class="form-input">
+        <div className="form-input">
           <label>E-mail:</label>
           <input required className="form-txt" type="email" name="email" />
         </div>
 
-        <div class="form-input">
+        <div className="form-input">
           <label>Mesaj:</label>
           <textarea required className="form-txt" name="mesaj"></textarea>
         </div>

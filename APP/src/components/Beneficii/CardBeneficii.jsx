@@ -2,8 +2,8 @@ export default function CardBeneficii({ image, title, text }) {
   const Icon = image;
 
   return (
-    <div class="card-beneficii">
-      <div class="card-img">
+    <div className="card-beneficii">
+      <div className="card-img">
         <Icon className="card-icon" />
       </div>
 

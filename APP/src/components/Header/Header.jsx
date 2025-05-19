@@ -1,7 +1,8 @@
 import "./Header.css";
 import { HeartPulseIcon } from "lucide-react";
+import { useState } from "react";
 
-export default function Header({ onNavigate, current }) {
+export default function Header({ onNavigate, current, onMenu, active }) {
   return (
     <div id="header">
       <div id="header-content">
@@ -37,7 +38,13 @@ export default function Header({ onNavigate, current }) {
           </li>
         </ul>
 
-        <div id="nav-btn">
+        <div
+          className={active ? "active" : ""}
+          onClick={() => {
+            onMenu(!active);
+          }}
+          id="nav-btn"
+        >
           <div className="btnLine"></div>
           <div className="btnLine"></div>
           <div className="btnLine"></div>

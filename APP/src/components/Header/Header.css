@@ -8,6 +8,7 @@
   width: 100vw;
   position: sticky;
   top: 0;
+  z-index: 3;
 
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
@@ -93,17 +94,13 @@
   cursor: pointer;
 }
 
-#nav-btn.active .btnLine:nth-of-type(2) {
-  opacity: 0;
-}
-
 #nav-btn.active .btnLine:nth-of-type(1) {
-  transform: rotate(225deg);
+  /* transform: rotate(225deg); */
   margin-bottom: -0.8rem;
 }
 
 #nav-btn.active .btnLine:nth-of-type(3) {
-  transform: rotate(-45deg);
+  /* transform: rotate(-45deg); */
   margin-top: -0.8rem;
 }
 
