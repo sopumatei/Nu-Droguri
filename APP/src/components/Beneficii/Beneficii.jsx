@@ -1,9 +1,15 @@
+import React, { useState } from "react";
 import "./Beneficii.css";
-
 import CardBeneficii from "./CardBeneficii";
 import content from "./cardsData";
 
 export default function Beneficii() {
+  const [expandedCard, setExpandedCard] = useState(null);
+
+  const handleCardClick = (title) => {
+    setExpandedCard(expandedCard === title ? null : title);
+  };
+
   return (
     <div id="beneficii">
       <div id="beneficii-txt">
@@ -16,7 +22,12 @@ export default function Beneficii() {
 
       <div id="beneficii-cards">
         {content.map((item) => (
-          <CardBeneficii key={item.title} {...item} />
+          <CardBeneficii
+            key={item.title}
+            {...item}
+            isExpanded={expandedCard === item.title}
+            onClick={() => handleCardClick(item.title)}
+          />
         ))}
       </div>
     </div>
