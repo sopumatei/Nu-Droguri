@@ -2,7 +2,7 @@ export default function CardBeneficii({ image, title, text }) {
   const Icon = image;
 
   return (
-    <div className="card-beneficii">
+    <div onClick={() => console.log("click", title)} className="card-beneficii">
       <div className="card-img">
         <Icon className="card-icon" />
       </div>
